@@ -1,6 +1,7 @@
 <template>
 <div id="app">
   <NavigationWithIdentity :channel="channel" :isAuthenticated.sync="isAuthenticated" :modalAuthIsShown.sync="modalAuthIsShown"></NavigationWithIdentity>
+  <router-view></router-view>
   <ModalAuth v-if="modalAuthIsShown" :modalAuthIsShown.sync="modalAuthIsShown" :isAuthenticated.sync="isAuthenticated"></ModalAuth>
   <FooterStandard></FooterStandard>
 </div>
