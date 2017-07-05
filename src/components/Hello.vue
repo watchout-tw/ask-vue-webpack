@@ -218,15 +218,15 @@ section {
     height: 0;
     padding-bottom: 88.8888889%;
     @include placeholder;
-    background-image: url(../assets/opening-compact.jpg);
+    background-image: url(~assets/opening-compact.jpg);
 
     @include bp-sm-up {
       padding-bottom: 50%;
-      background-image: url(../assets/opening-regular.jpg);
+      background-image: url(~assets/opening-regular.jpg);
     }
     @include bp-lg-up {
       padding-bottom: 33.333333%;
-      background-image: url(../assets/opening-wide.jpg);
+      background-image: url(~assets/opening-wide.jpg);
     }
   }
   &#now {

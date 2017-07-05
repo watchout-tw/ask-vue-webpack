@@ -1,3 +1,4 @@
+var webpack = require('webpack')
 var path = require('path')
 var utils = require('./utils')
 var config = require('../config')
@@ -22,9 +23,13 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src')
+      '@': resolve('src'),
+      'assets': resolve('src/assets') // for asset URL in CSS?
     }
   },
+  plugins: [
+    new webpack.IgnorePlugin(/\.md$/) // ignore .md files
+  ],
   module: {
     rules: [
       {
