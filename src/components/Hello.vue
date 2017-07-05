@@ -165,7 +165,7 @@ export default {
 /* Page-specific styles */
 
 body {
-  // background-image: url(../asset/demo.png);
+  // background-image: url(../assets/demo.png);
 }
 
 $font-size-small: 0.875rem;
@@ -218,15 +218,15 @@ section {
     height: 0;
     padding-bottom: 88.8888889%;
     @include placeholder;
-    background-image: url(../asset/opening-compact.jpg);
+    background-image: url(../assets/opening-compact.jpg);
 
     @include bp-sm-up {
       padding-bottom: 50%;
-      background-image: url(../asset/opening-regular.jpg);
+      background-image: url(../assets/opening-regular.jpg);
     }
     @include bp-lg-up {
       padding-bottom: 33.333333%;
-      background-image: url(../asset/opening-wide.jpg);
+      background-image: url(../assets/opening-wide.jpg);
     }
   }
   &#now {
@@ -274,7 +274,7 @@ section {
       transform: translate(-50%, -50%);
       width: 96px;
       height: 96px;
-      background-image: url(../asset/play.png);
+      background-image: url(../assets/play.png);
       background-size: contain;
       cursor: pointer;
       @include bp-sm-up {
@@ -357,13 +357,13 @@ section {
   &.signup {
     > .photo {
       background-color: $color-ask;
-      background-image: url(../asset/+1.png);
+      background-image: url(../assets/+1.png);
       background-size: contain;
       background-position: center center;
       box-shadow: 0px 2px 6px $color-shadow;
     }
     &.online > .photo {
-      background-image: url(../asset/+1-online.png);
+      background-image: url(../assets/+1-online.png);
     }
   }
 }

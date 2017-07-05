@@ -23,7 +23,7 @@ export default {
         if(this.g.photo.indexOf('http') >= 0) {
           photoURL = this.g.photo + this.g.name + '.jpg'
         } else {
-          photoURL = require('../asset/guests/' + this.g.photo)
+          photoURL = require('../assets/guests/' + this.g.photo)
         }
       }
       return {
