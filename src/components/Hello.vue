@@ -162,12 +162,6 @@ export default {
 @import '~common/src/styles/main';
 @import '../styles/animate';
 
-/* Page-specific styles */
-
-body {
-  // background-image: url(../assets/demo.png);
-}
-
 $font-size-small: 0.875rem;
 $section-label-size: 3rem;
 $sqrt-3: 1.732051;
