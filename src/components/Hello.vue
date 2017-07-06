@@ -268,7 +268,7 @@ section {
       transform: translate(-50%, -50%);
       width: 96px;
       height: 96px;
-      background-image: url(../assets/play.png);
+      background-image: url(/static/play.png);
       background-size: contain;
       cursor: pointer;
       @include bp-sm-up {
@@ -351,13 +351,13 @@ section {
   &.signup {
     > .photo {
       background-color: $color-ask;
-      background-image: url(../assets/+1.png);
+      background-image: url(/static/+1.png);
       background-size: contain;
       background-position: center center;
       box-shadow: 0px 2px 6px $color-shadow;
     }
     &.online > .photo {
-      background-image: url(../assets/+1-online.png);
+      background-image: url(/static/+1-online.png);
     }
   }
 }
