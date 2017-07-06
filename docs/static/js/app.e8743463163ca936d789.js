@@ -472,7 +472,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   data: function data() {
     return {
       link: __WEBPACK_IMPORTED_MODULE_0__lib_dataStore__["a" /* default */].links.support,
-      text: ['《給問擂台》沃草年度巨獻', '全年十二場，很缺錢，真的很缺。'],
+      text: ['沃草年度巨獻：《給問擂台》', '全年十二場，很缺錢，真的很缺。'],
       image: 'pitcher',
       button: '灌溉好專案'
     };
@@ -2888,4 +2888,4 @@ webpackContext.id = 163;
 
 /***/ })
 ],[47]);
-//# sourceMappingURL=app.6e3a8f24be1f513dcc31.js.map
+//# sourceMappingURL=app.e8743463163ca936d789.js.map
