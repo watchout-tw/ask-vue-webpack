@@ -468,10 +468,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['supportIsShown'],
   data: function data() {
     return {
       link: __WEBPACK_IMPORTED_MODULE_0__lib_dataStore__["a" /* default */].links.support,
-      text: ['給問擂台，沃草2017年度巨獻', '全年12場，hen缺錢，真的hen缺'],
+      text: ['《給問擂台》沃草年度巨獻', '全年十二場，很缺錢，真的很缺。'],
       image: 'pitcher',
       button: '灌溉好專案'
     };
@@ -480,6 +481,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   computed: {
     imageURL: function imageURL() {
       return __webpack_require__(63)("./" + this.image + '.png');
+    }
+  },
+  methods: {
+    close: function close() {
+      this.$emit('update:supportIsShown', false);
     }
   }
 });
@@ -522,7 +528,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     return {
       channel: __WEBPACK_IMPORTED_MODULE_0_common_src_lib_dataStore__["a" /* default */].channels.ask,
       isAuthenticated: false,
-      modalAuthIsShown: false
+      modalAuthIsShown: false,
+      supportIsShown: true
     };
   },
 
@@ -1760,7 +1767,16 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         _vm.isAuthenticated = $event
       }
     }
-  }) : _vm._e(), _vm._v(" "), _c('FooterStandard'), _vm._v(" "), _c('SupportWatchoutStandard')], 1)
+  }) : _vm._e(), _vm._v(" "), _c('FooterStandard'), _vm._v(" "), (_vm.supportIsShown) ? _c('SupportWatchoutStandard', {
+    attrs: {
+      "supportIsShown": _vm.supportIsShown
+    },
+    on: {
+      "update:supportIsShown": function($event) {
+        _vm.supportIsShown = $event
+      }
+    }
+  }) : _vm._e()], 1)
 },staticRenderFns: []}
 
 /***/ }),
@@ -1954,7 +1970,16 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "src": _vm.imageURL
     }
-  }), _vm._v(" "), _c('button', [_vm._v(_vm._s(_vm.button))])])])])])
+  }), _vm._v(" "), _c('button', [_vm._v(_vm._s(_vm.button))])])]), _vm._v(" "), _c('div', {
+    staticClass: "close white",
+    on: {
+      "click": function($event) {
+        $event.stopPropagation();
+        $event.preventDefault();
+        _vm.close($event)
+      }
+    }
+  })])])
 },staticRenderFns: []}
 
 /***/ }),
@@ -2817,4 +2842,4 @@ module.exports = {
 
 /***/ })
 ],[47]);
-//# sourceMappingURL=app.7c59ded4b73444eb0f16.js.map
+//# sourceMappingURL=app.78c70a32b89df9e4ac4b.js.map

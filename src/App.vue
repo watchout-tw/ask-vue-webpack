@@ -4,7 +4,7 @@
   <router-view></router-view>
   <ModalAuth v-if="modalAuthIsShown" :modalAuthIsShown.sync="modalAuthIsShown" :isAuthenticated.sync="isAuthenticated"></ModalAuth>
   <FooterStandard></FooterStandard>
-  <SupportWatchoutStandard></SupportWatchoutStandard>
+  <SupportWatchoutStandard v-if="supportIsShown" :supportIsShown.sync="supportIsShown"></SupportWatchoutStandard>
 </div>
 </template>
 
@@ -21,7 +21,8 @@ export default {
     return {
       channel: dataStore.channels.ask,
       isAuthenticated: false,
-      modalAuthIsShown: false
+      modalAuthIsShown: false,
+      supportIsShown: true
     }
   },
   components: {
