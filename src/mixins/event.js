@@ -20,7 +20,7 @@ export default {
     },
     player: function() {
       var backgroundImageURL = (this.e.keyVisual
-        ? 'asset/events/' + this.e.keyVisual
+        ? require('_/events/' + this.e.keyVisual)
         : 'https://img.youtube.com/vi/' + this.youtubeID + '/maxresdefault.jpg'
       )
       return {
