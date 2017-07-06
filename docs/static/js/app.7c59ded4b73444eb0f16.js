@@ -151,6 +151,7 @@ module.exports = Component.exports
 __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]);
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
+  mode: 'history',
   routes: [{
     path: '/',
     name: 'Hello',
@@ -2816,4 +2817,4 @@ module.exports = {
 
 /***/ })
 ],[47]);
-//# sourceMappingURL=app.80d5c7bb090914ec8ef4.js.map
+//# sourceMappingURL=app.7c59ded4b73444eb0f16.js.map
