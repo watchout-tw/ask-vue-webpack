@@ -471,7 +471,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   props: ['supportIsShown'],
   data: function data() {
     return {
-      link: __WEBPACK_IMPORTED_MODULE_0__lib_dataStore__["a" /* default */].links.support,
+      link: __WEBPACK_IMPORTED_MODULE_0__lib_dataStore__["a" /* default */].links.support.ask.direct,
       text: ['沃草年度巨獻：《給問擂台》', '全年十二場，很缺錢，真的很缺。'],
       image: 'pitcher',
       button: '灌溉好專案'
@@ -1975,7 +1975,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('a', {
     staticClass: "panel d-sm-flex justify-content-around align-items-center",
     attrs: {
-      "href": _vm.link
+      "href": _vm.link,
+      "target": "_blank"
     }
   }, [_c('div', {
     staticClass: "text"
@@ -2888,4 +2889,4 @@ webpackContext.id = 163;
 
 /***/ })
 ],[47]);
-//# sourceMappingURL=app.e8743463163ca936d789.js.map
+//# sourceMappingURL=app.9406686f78f868a86cdf.js.map

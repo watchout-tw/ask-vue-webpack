@@ -415,7 +415,12 @@ module.exports = {
 
 var links = {
   home: 'https://watchout.tw/',
-  support: 'https://watchout.tw/#support',
+  support: {
+    general: 'https://watchout.tw/#support',
+    ask: {
+      direct: 'https://watchout.backme.tw/checkout/332/1567'
+    }
+  },
   contact: 'https://watchout.tw/contact'
 };
 
@@ -25326,4 +25331,4 @@ function applyToTag (styleElement, obj) {
 
 /***/ })
 ]);
-//# sourceMappingURL=vendor.5ee82b3d8217cd6ba5e7.js.map
+//# sourceMappingURL=vendor.39d0a7caa06cd7a51232.js.map
