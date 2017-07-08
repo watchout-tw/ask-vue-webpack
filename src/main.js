@@ -4,6 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// enable bootstrap
+global.$ = window.jQuery = window.$ = require('jquery')
+global.Tether = require('tether')
+global.Bootstrap = require('bootstrap')
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
