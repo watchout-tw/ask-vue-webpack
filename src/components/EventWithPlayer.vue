@@ -23,7 +23,7 @@
 </div>
 </template>
 <script>
-import mxEvent from '@/mixins/event'
+import mixinEvent from '@/mixins/event'
 import Date from '@/components/Date'
 import TimePeriod from '@/components/TimePeriod'
 import Partner from '@/components/Partner'
@@ -37,7 +37,7 @@ export default {
     TimePeriod,
     Partner
   },
-  mixins: [mxEvent],
+  mixins: [mixinEvent],
   methods: {
     play(event) {
       var url, html

@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import mxEvent from '@/mixins/event'
+import mixinEvent from '@/mixins/event'
 import Date from '@/components/Date'
 import Guest from '@/components/Guest'
 
@@ -27,7 +27,7 @@ export default {
     Date,
     Guest
   },
-  mixins: [mxEvent],
+  mixins: [mixinEvent],
   computed: {
     classes() {
       var flag = this.e.guests.length % 3

@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import mxEvent from '@/mixins/event'
+import mixinEvent from '@/mixins/event'
 import Date from '@/components/Date'
 import TimePeriod from '@/components/TimePeriod'
 import Guest from '@/components/Guest'
@@ -43,7 +43,7 @@ export default {
     Guest,
     Partner
   },
-  mixins: [mxEvent],
+  mixins: [mixinEvent],
   computed: {
     newline: function() {
       return '\n'
