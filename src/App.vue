@@ -36,5 +36,6 @@ export default {
 
 <style lang="scss">
 @import '~common/src/styles/resources';
+@import '~common/src/styles/grid';
 @import '~common/src/styles/main';
 </style>
