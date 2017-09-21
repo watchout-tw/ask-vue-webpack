@@ -418,7 +418,7 @@ var links = {
   support: {
     general: 'https://watchout.tw/#support',
     ask: {
-      direct: 'https://watchout.backme.tw/checkout/332/1567'
+      direct: 'https://watchout.backme.tw/checkout/332/2686'
     }
   },
   contact: 'https://watchout.tw/contact'
@@ -21954,7 +21954,7 @@ $export.P = 8;   // proto
 $export.B = 16;  // bind
 $export.W = 32;  // wrap
 $export.U = 64;  // safe
-$export.R = 128; // real proto method for `library` 
+$export.R = 128; // real proto method for `library`
 module.exports = $export;
 
 /***/ }),
