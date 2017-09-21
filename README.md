@@ -1,4 +1,4 @@
-# ask2
+# ask-vue-webpack
 
 > A Vue.js project
 
