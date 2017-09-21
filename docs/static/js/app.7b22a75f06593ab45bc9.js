@@ -2477,11 +2477,33 @@ module.exports = {
 				"organizers": [
 					"recFYPDHFjiAw2aM8"
 				],
-				"keyVisual": "tainan.jpg",
 				"youtube": "https://youtu.be/7R-Ul0gMvTg",
-				"primary": "youtube"
+				"primary": "youtube",
+				"keyVisual": "tainan.jpg",
+				"report": "https://musou.tw/focuses/1386"
 			},
 			"createdTime": "2017-06-20T07:32:07.000Z"
+		},
+		{
+			"id": "recjWZ0NPWCtCg3hd",
+			"fields": {
+				"title": "桃園立委給問嗎？",
+				"date": "2017-09-23",
+				"start": "14:00",
+				"end": "17:00",
+				"description": "「六都立委給問嗎」第二站來到桃園，針對各種與桃園市民關心的議題如航空城、環境、文資、職災、移工等，立委將直接面對現場公民與公民團體的質詢。\n\n經過網路票選，前三高票中的陳學聖、鄭運鵬兩位立委已接受挑戰，吳志揚回覆無法出席。",
+				"guests": [
+					"rec7GvWlZhteSK3GA",
+					"rec3aGQVOHLORzva7"
+				],
+				"organizers": [
+					"reckgxslVx2YszaFr"
+				],
+				"youtube": "https://youtu.be/PAC8Cz3Kkxk",
+				"signup": "https://goo.gl/CfsWRv",
+				"primary": "youtube"
+			},
+			"createdTime": "2017-09-21T06:06:54.698Z"
 		}
 	]
 };
@@ -2731,6 +2753,35 @@ module.exports = {
 				]
 			},
 			"createdTime": "2017-06-20T07:35:21.000Z"
+		},
+		{
+			"id": "rec7GvWlZhteSK3GA",
+			"fields": {
+				"name": "陳學聖",
+				"job": "立法委員",
+				"photo": "https://raw.githubusercontent.com/chihaoyo/get-rep-photos/master/9/",
+				"events": [
+					"recjWZ0NPWCtCg3hd"
+				]
+			},
+			"createdTime": "2017-09-21T06:20:29.711Z"
+		},
+		{
+			"id": "rec3aGQVOHLORzva7",
+			"fields": {
+				"name": "鄭運鵬",
+				"photo": "https://raw.githubusercontent.com/chihaoyo/get-rep-photos/master/9/",
+				"job": "立法委員",
+				"events": [
+					"recjWZ0NPWCtCg3hd"
+				]
+			},
+			"createdTime": "2017-09-21T06:20:47.498Z"
+		},
+		{
+			"id": "reccM6VE4O2pUwrDA",
+			"fields": {},
+			"createdTime": "2017-09-21T06:20:57.094Z"
 		}
 	]
 };
@@ -2835,7 +2886,13 @@ module.exports = {
 		},
 		{
 			"id": "reckgxslVx2YszaFr",
-			"fields": {},
+			"fields": {
+				"name": "桃園在地聯盟",
+				"link": "https://www.facebook.com/tyunion/?fref=ts",
+				"Events": [
+					"recjWZ0NPWCtCg3hd"
+				]
+			},
 			"createdTime": "2017-06-20T07:38:26.000Z"
 		}
 	]
@@ -2904,4 +2961,4 @@ webpackContext.id = 163;
 
 /***/ })
 ],[47]);
-//# sourceMappingURL=app.8c8ef542c307a0b48214.js.map
+//# sourceMappingURL=app.7b22a75f06593ab45bc9.js.map
